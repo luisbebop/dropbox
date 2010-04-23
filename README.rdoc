@@ -6,6 +6,7 @@ are inspired from Dropbox Uploader ( http://jaka.kubje.org/software/DropboxUploa
 
 == Example
 
+  require "rubygems"
   require "dropbox_uploader"
   dropbox = DropboxUploader.new("email@example.com", "MyPassword")
   dropbox.upload("localfile.txt", "/")
