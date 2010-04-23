@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.authors = ["unak,luisbebop"]
   s.email = %q{luisbebop@gmail.com}
   s.summary = %q{A simple Dropbox library to upload files.}
-  s.homepage = %q{http://github.com/unak/dropbox}
+  s.homepage = %q{http://github.com/luisbebop/dropbox}
   s.description = %q{A simple Dropbox library to upload files, with no other gem dependencies.}
   s.files = [ "README.rdoc", "lib/dropbox_uploader.rb"]
 end
