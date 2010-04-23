@@ -31,14 +31,14 @@ require "uri"
 
 # == About this library
 #
-# A simple Dropbox ( http://www.dropbox.com/ ) libyrary to upload files.
+# A simple Dropbox ( http://www.dropbox.com/ ) library to upload files, with no other gem dependencies.
 # This library has been completely written from scratch, but ideas and logics
 # are inspired from Dropbox Uploader ( http://jaka.kubje.org/software/DropboxUploader/ ).
 #
 # == Example
 #
-#   require "dropbox"
-#   dropbox = Dropbox.new("email@exapmle.com", "MyPassword")
+#   require "dropbox_uploader"
+#   dropbox = DropboxUploader.new("email@exapmle.com", "MyPassword")
 #   dropbox.upload("localfile.txt", "/")
 #
 # == Known bugs
@@ -46,7 +46,7 @@ require "uri"
 # * error check and recovery
 # * non-ASCII file/remotedir name support
 #
-class Dropbox
+class DropboxUploader
   #
   # Create Dropbox instance and initialize it.
   # _email_ is your email registered at Dropobox.

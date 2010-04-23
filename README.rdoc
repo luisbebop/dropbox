@@ -1,0 +1,16 @@
+== About this library
+
+A simple Dropbox ( http://www.dropbox.com/ ) library to upload files, with no other gem dependencies.
+This library has been completely written from scratch, but ideas and logics
+are inspired from Dropbox Uploader ( http://jaka.kubje.org/software/DropboxUploader/ ).
+
+== Example
+
+  require "dropbox_uploader"
+  dropbox = DropboxUploader.new("email@example.com", "MyPassword")
+  dropbox.upload("localfile.txt", "/")
+
+== Known bugs
+
+* error check and recovery
+* non-ASCII file/remotedir name support
